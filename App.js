@@ -8,8 +8,9 @@ const heading2 = React.createElement("h1" , {} , "heading 2");
 
 const container = React.createElement("div" , {} , [heading0 , heading1 , heading2]);
   
-
 root.render(container);
+
+
 
 
  
