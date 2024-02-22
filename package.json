@@ -1,0 +1,22 @@
+{
+  "name": "react",
+  "version": "1.0.0",
+  "description": "This is a learning project",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tusharkumar2302/React.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tusharkumar2302/React/issues"
+  },
+  "homepage": "https://github.com/tusharkumar2302/React#readme",
+  "devDependencies": {
+    "parcel": "^2.11.0"
+  }
+}
