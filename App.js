@@ -4,9 +4,60 @@ import  ReactDOM  from "react-dom/client";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
-const heading0 = React.createElement("h1" , {key : "h0"} , "Hello World!");
-const heading1 = React.createElement("h1" , {key : "h1"} , "heading 1");
-const heading2 = React.createElement("h1" , {key : "h2"} , "heading 2");
-const container = React.createElement("div" , {} , [heading0 , heading1 , heading2]);
+/*
+ Header 
+     logo 
+     Home 
+     About 
+     contact 
+     cart
+
+Body 
+    Restaurant card 
+        name of the restaurant
+        img of the restaurant
+
+
+Footer 
+      
+
+*/
+
+
+function Header () {
+  return (
+  <div className = "navbar">
+    <li>logo</li>
+    <li>Home</li>
+    <li>About Us</li>
+    <li>Contact Us</li>
+    <li>Cart</li>
+  </div>
+  )
+ }
+
+ function Body () {
+  return (
+  <h1>This is the body</h1>
+  )
+ }
+
+ function Footer () {
+  return (
+  <h1>This is the footer</h1>
+  )
+ }
+
+
+
+const App = function App () {
+  return (
+  <>
+   <Header />
+   <Body />
+   <Footer />
+  </>
+  )
+}
   
-root.render(container); 
+root.render(<App />);
