@@ -27,7 +27,6 @@ Footer
 function Header () {
   return (
   <div className = "navbar">
-    <li>logo</li>
     <li>Home</li>
     <li>About Us</li>
     <li>Contact Us</li>
